@@ -34,7 +34,7 @@ const TreeNode = (props) => {
         {hasChild && (
           <div
             className={`d-inline d-tree-toggler ${
-              childVisible ? "active" : ""             /* Iska matlab hai jab childvisible true hoga to active class dedenge div ko */
+              childVisible ? "active" : ""             
             }`}
           >
             <FontAwesomeIcon icon="caret-right" />
