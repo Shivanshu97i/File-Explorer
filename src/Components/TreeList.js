@@ -9,37 +9,37 @@ import { useEffect, useState } from "react";
     key: "0",
     label: "Documents",
     icon: "fa fa-folder",
-    title: "Documents Folder",
+    
     children: [
       {
         key: "0-0",
         label: "Document 1-1",
         icon: "fa fa-folder",
-        title: "Documents Folder",
+        
         children: [
           {
             key: "0-1-1",
             label: "Document-1.doc",
             icon: "fa fa-file",
-            title: "Documents Folder",
+         
           },
           {
             key: "0-1-2",
             label: "Document-2.doc",
             icon: "fa fa-file",
-            title: "Documents Folder",
+            
           },
           {
             key: "0-1-3",
             label: "Document-3.doc",
             icon: "fa fa-file",
-            title: "Documents Folder",
+       
           },
           {
             key: "0-1-4",
             label: "Document-4.doc",
             icon: "fa fa-file",
-            title: "Documents Folder",
+         
           },
         ],
       },
@@ -49,19 +49,19 @@ import { useEffect, useState } from "react";
     key: "1",
     label: "Desktop",
     icon: "fa fa-desktop",
-    title: "Desktop Folder",
+  
     children: [
       {
         key: "1-0",
         label: "document1.doc",
         icon: "fa fa-file",
-        title: "Documents Folder",
+      
       },
       {
         key: "0-0",
         label: "documennt-2.doc",
         icon: "fa fa-file",
-        title: "Documents Folder",
+        
       },
     ],
   },
@@ -69,12 +69,12 @@ import { useEffect, useState } from "react";
     key: "2",
     label: "Downloads",
     icon: "fa fa-download",
-    title: "Downloads Folder",
+  
     children: [ {
       key: "0-0",
       label: "documennt-2.doc",
       icon: "fa fa-file",
-      title: "Documents Folder",
+    
     },],
   },
 ];
@@ -111,12 +111,12 @@ const TreeList = () => {
         key: "1",
         label: name,
         icon: "fa fa-download",
-        title: "New Folder",
+        
         children: [ {
           key: "0-0",
           label: "a.doc",
           icon: "fa fa-file",
-          title: "New Folder 2",
+          
         },],
       },)
       break;
