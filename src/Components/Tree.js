@@ -7,7 +7,7 @@ const Tree = (props) => {
   let  data = props.data;
   const Change =()=> props.handleClick;
   return (
-    <div className="d-tree">
+    <div className="">
       <ul className="d-flex d-tree-container flex-column">
         {data.map((tree) => (
           <TreeNode node={tree} click={Change()} />
